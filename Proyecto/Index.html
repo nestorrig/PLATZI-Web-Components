@@ -13,9 +13,27 @@
             font-size: 62.5%;
         }
         body{
+            width: 100%;
+            min-height: 100dvh;
             background-color: #2d3a6d;
+            padding: 16px;
             display: flex;
             flex-wrap: wrap;
+            justify-content: center;
+            align-content: center;
+            gap: 36px;
+        }
+        .gray {
+            --primary-color: #666666;
+            --text-floating-color: #cccccc;
+        }
+        .brown {
+            --primary-color: #DBBEA1;
+            --text-floating-color: #A37B73;
+        }
+        .red {
+            --primary-color: #DB7F67;
+            --text-floating-color: #E71D36;
         }
     </style>
 </head>
@@ -25,6 +43,39 @@
         brand="Nike"
         price="2,500"
         img="https://github.com/degranda/curso-web-components/blob/main/Proyecto/imgs/nike-blue.png?raw=true"
+        description="
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sed rerum, porro, iusto, in dolorem vero at perferendis ut repellat saepe cupiditate. Iste culpa quae perspiciatis ea veritatis, rerum corrupti?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae commodi perspiciatis non ipsum illo nam quis eos sint! Asperiores ad aut facilis libero rerum deleniti corrupti! Nihil debitis voluptates consequuntur.
+        "
+    ></product-card>
+    <product-card
+        class="gray"
+        title="Nike Tiger pro"
+        brand="Nike"
+        price="2,100"
+        img="https://static.nike.com/a/images/t_default/32e90900-2918-4715-a6c8-c2b9eb82d172/revolution-6-mens-running-shoes-extra-wide-jxcxnL.png"
+        description="
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sed rerum, porro, iusto, in dolorem vero at perferendis ut repellat saepe cupiditate. Iste culpa quae perspiciatis ea veritatis, rerum corrupti?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae commodi perspiciatis non ipsum illo nam quis eos sint! Asperiores ad aut facilis libero rerum deleniti corrupti! Nihil debitis voluptates consequuntur.
+        "
+    ></product-card>
+    <product-card
+        class="brown"
+        title="Nike Air Max"
+        brand="Nike"
+        price="2,800"
+        img="https://static.nike.com/a/images/t_default/0243250e-df03-4cb3-b4cc-23e86df501ad/custom-nike-dunk-high-by-you-shoes.png"
+        description="
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sed rerum, porro, iusto, in dolorem vero at perferendis ut repellat saepe cupiditate. Iste culpa quae perspiciatis ea veritatis, rerum corrupti?
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae commodi perspiciatis non ipsum illo nam quis eos sint! Asperiores ad aut facilis libero rerum deleniti corrupti! Nihil debitis voluptates consequuntur.
+        "
+    ></product-card>
+    <product-card
+        class="red"
+        title="Nike Max Force"
+        brand="Nike"
+        price="2,350"
+        img="https://purepng.com/public/uploads/large/purepng.com-running-shoesrunning-shoesrunningshoessportingphysical-activitiesstyle-1701528181434zdmxs.png"
         description="
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus sed rerum, porro, iusto, in dolorem vero at perferendis ut repellat saepe cupiditate. Iste culpa quae perspiciatis ea veritatis, rerum corrupti?
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Beatae commodi perspiciatis non ipsum illo nam quis eos sint! Asperiores ad aut facilis libero rerum deleniti corrupti! Nihil debitis voluptates consequuntur.

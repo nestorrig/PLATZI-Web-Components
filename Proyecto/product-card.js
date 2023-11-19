@@ -45,6 +45,7 @@ class ProductCard extends HTMLElement {
             --primary-color: #5a6cb2;
             --title-color: #1b1b1b;
             --text-color: #4a4a4a;
+            --text-floating-color: #4a4a4a;
             --font-family: 'Roboto', sans-serif;
             --size-float-text: 6rem;
             --size-title: 2.5rem;
@@ -57,12 +58,8 @@ class ProductCard extends HTMLElement {
             box-sizing: border-box;
             font-size: 62.5%;
         }
-        body{
-            background-color: #2d3a6d;
-        }
         .card {
             width: 100%;
-            padding: 16px;
             font-family: var(--font-family);
         }
         .card__imgSection{
@@ -78,7 +75,7 @@ class ProductCard extends HTMLElement {
             font-weight: bold;
             text-transform: uppercase;
             font-size: var(--size-float-text);
-            color: var(--text-color);
+            color: var(--text-floating-color);
             opacity: 0.5;
         }
         .card__imgSection figure{
